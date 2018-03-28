@@ -238,7 +238,7 @@ objects:
     - name: "${GOGS_VERSION}"
       from:
         kind: DockerImage
-        name: docker-registry-default.nocp.vs.csint.cz/openshift3/gogs:${GOGS_VERSION}
+        name: docker-registry-default.nocp.vs.csint.cz/openshift/gogs:${GOGS_VERSION}
       importPolicy: {}
       annotations:
         description: The Gogs git server docker image

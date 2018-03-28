@@ -49,7 +49,7 @@ objects:
         tags: sonarqube
       from:
         kind: DockerImage
-        name: docker-registry-default.nocp.vs.csint.cz/openshift3/sonarqube:${SONARQUBE_VERSION}
+        name: docker-registry-default.nocp.vs.csint.cz/openshift/sonarqube:${SONARQUBE_VERSION}
       importPolicy: {}
       name: ${SONARQUBE_VERSION}
 - apiVersion: v1
